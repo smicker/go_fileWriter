@@ -1,4 +1,9 @@
-This program writes an increasing integer to a file ./output.txt each second, forever.
+This program writes an increasing integer to a file ./output.txt each second.
+
+It has some optional input parameters which you see with "./fileWriter -help":
+-crashTime int  (Makes the program crash after the given amount of seconds)
+-runTime   int  (Makes the program gracefully exit after the given amount of seconds)
+-fName  string  (Sets another output filename than ./output.txt)
 
 Creation walkthrough...
 1. mkdir go_fileWriter
